@@ -7,6 +7,8 @@ License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.stanford.edu/~epop/igal/%{name}-%{version}.tar.gz
 Url:		http://www.stanford.edu/~epop/igal/
+Requires:	ImageMagick
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
