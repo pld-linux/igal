@@ -36,7 +36,7 @@ mv igal{.new,}
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_libdir}/%{name}
-install indextemplate.html slidetemplate.html tile.gif igal.css \
+install indextemplate.html slidetemplate.html tile.png igal.css \
 	$RPM_BUILD_ROOT%{_libdir}/%{name}
 install -D igal $RPM_BUILD_ROOT%{_bindir}/igal
 install -D igal.1 $RPM_BUILD_ROOT%{_mandir}/man1/igal.1
