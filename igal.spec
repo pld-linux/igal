@@ -2,7 +2,7 @@ Summary:	Easy and flexible online Image GALlery generator
 Summary(pl):	£atwy i elastyczny generator obrazków dla www
 Name:		igal
 Version:	1.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.stanford.edu/~epop/igal/%{name}-%{version}.tar.gz
