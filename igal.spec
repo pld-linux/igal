@@ -22,7 +22,7 @@ altering igal's two HTML template files.
 %description -l pl
 Igal jest sprawnym, ³atwym w u¿yciu i elastycznym programem maj±cym na
 celu pomóc Ci w umieszczeniu Twoich obrazków w sieci. Generuje ca³kiem
-³adnie wygl±daj±cey zestaw HTML-owych slajdów, z mo¿liwo¶ci± zmiany
+³adnie wygl±daj±cy zestaw HTML-owych slajdów, z mo¿liwo¶ci± zmiany
 wielu parametrów z wiersza poleceñ lub przez podanie igalowi innych
 wzorców plików.
 
