@@ -1,5 +1,5 @@
-Summary:	Easy and flexible online Image GALlery generator.
-Summary(pl):	£atwy i elastyczny generator obrazków dla www.
+Summary:	Easy and flexible online Image GALlery generator
+Summary(pl):	£atwy i elastyczny generator obrazków dla www
 Name:		igal
 Version:	1.4
 Release:	1
