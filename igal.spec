@@ -2,7 +2,7 @@ Summary:	Easy and flexible online Image GALlery generator
 Summary(pl):	£atwy i elastyczny generator obrazków dla www
 Name:		igal
 Version:	1.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.stanford.edu/~epop/igal/%{name}-%{version}.tar.gz
@@ -30,14 +30,14 @@ wzorców plików.
 %setup  -q
 
 %build
-cat igal |sed -e "s#%{_prefix}/local/lib/igal#%{_libdir}/igal#g" >igal.new
+cat igal |sed -e "s#%{_prefix}/local/lib/igal#%{_datadir}/igal#g" >igal.new
 mv igal{.new,}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_libdir}/%{name}
+install -d $RPM_BUILD_ROOT%{_datadir}/%{name}
 install indextemplate.html slidetemplate.html tile.png igal.css \
-	$RPM_BUILD_ROOT%{_libdir}/%{name}
+	$RPM_BUILD_ROOT%{_datadir}/%{name}
 install -D igal $RPM_BUILD_ROOT%{_bindir}/igal
 install -D igal.1 $RPM_BUILD_ROOT%{_mandir}/man1/igal.1
 
@@ -49,4 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog README THANKS
 %attr(755,root,root) %{_bindir}/%{name}
 %{_mandir}/man?/*
-%{_libdir}/%{name}
+%{_datadir}/%{name}
