@@ -1,5 +1,5 @@
 Summary:	Easy and flexible online Image GALlery generator
-Summary(pl):	£atwy i elastyczny generator obrazków dla WWW
+Summary(pl.UTF-8):   Åatwy i elastyczny generator obrazkÃ³w dla WWW
 Name:		igal
 Version:	1.4
 Release:	3
@@ -19,12 +19,12 @@ HTML slides even with its default settings -- which can otherwise be
 easily changed with a good number of command-line options or by
 altering igal's two HTML template files.
 
-%description -l pl
-Igal jest sprawnym, ³atwym w u¿yciu i elastycznym programem maj±cym na
-celu pomóc Ci w umieszczeniu Twoich obrazków w sieci. Generuje ca³kiem
-³adnie wygl±daj±cy zestaw HTML-owych slajdów, z mo¿liwo¶ci± zmiany
-wielu parametrów z wiersza poleceñ lub przez podanie igalowi innych
-wzorców plików.
+%description -l pl.UTF-8
+Igal jest sprawnym, Å‚atwym w uÅ¼yciu i elastycznym programem majÄ…cym na
+celu pomÃ³c Ci w umieszczeniu Twoich obrazkÃ³w w sieci. Generuje caÅ‚kiem
+Å‚adnie wyglÄ…dajÄ…cy zestaw HTML-owych slajdÃ³w, z moÅ¼liwoÅ›ciÄ… zmiany
+wielu parametrÃ³w z wiersza poleceÅ„ lub przez podanie igalowi innych
+wzorcÃ³w plikÃ³w.
 
 %prep
 %setup  -q
